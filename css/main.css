@@ -1,0 +1,96 @@
+.heroImg{
+	background: url("../img/dance_1.jpg") center;
+	background-size: cover;
+	color: white;
+	padding: 5%;
+}
+
+.frase{
+	background: url("../img/textura_2.jpg");
+	padding: 4% 10%;
+	text-align: center;
+}
+
+.frase img{
+	width: 15%;
+}
+
+.btnOferta{
+	background-color: #192951;
+}
+
+.borde{
+	border: 2px solid #192951;
+}
+
+.instructor1{
+	width: 100%;	
+}
+
+.img-contenedor:hover img {
+-webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-ms-transform:scale(1.5);
+-o-transform:scale(1.5);
+transform:scale(1.5);
+}
+/*Reducir tamaÃ±o*/
+.img-contenedor:hover img {
+-webkit-transform:scale(0.25);
+-moz-transform:scale(0.25);
+-ms-transform:scale(0.25);
+-o-transform:scale(0.25);
+transform:scale(0.25);
+}
+
+.instructor2{
+	width: 100%;
+	/*background: url("../img/profesor_9.jpg");
+	height: 60%;*/
+}
+
+.imagenes-instructores{
+	position: relative;
+}
+
+.nuestros-instructores{
+	position: absolute;
+	bottom: 0%;
+	padding: 4%;
+	background-color: #192951;
+	z-index: 100;
+}
+
+.rowTable {
+  display: table;
+  margin-right: 0px !important;
+}
+
+.rowTable .col-sm-6 {
+  display: table-cell;
+  float: none;
+  vertical-align: top;
+  margin: 0px;
+}
+
+.sinpadding [class*="col-"] {
+    padding: 0;
+}
+
+.sinmargin{
+    margin: 0;
+}
+
+.visitanos{
+	background-color: #192951;
+	padding: 5%;
+	color: white;
+}
+
+
+
+@media screen and (min-width: 768px)  {
+	.frase{
+	padding: 4% 25%;
+	}
+}

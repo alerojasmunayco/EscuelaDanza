@@ -1,0 +1,32 @@
+.oferta-clases img{
+	width: 100%;
+}
+
+.ballet{
+	background: url("../img/dance_12.jpg");	
+}
+
+.breakdance{
+	background: url("../img/breakdance.jpg");
+}
+
+.lirical{
+	background: url("../img/lirical-jazz.jpg");
+}
+
+.arabe{
+	background: url("../img/arabe.jpg");
+}
+
+.little{
+	background: url("../img/little.jpg");
+}
+
+.yoga{
+	background: url("../img/yoga.jpg");
+}
+.bg{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80%;
+}
