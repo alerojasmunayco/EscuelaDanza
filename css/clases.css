@@ -1,32 +1,47 @@
-.oferta-clases img{
-	width: 100%;
+.offerClasses{
+	background-color: #e9e9e9;
 }
-
 .ballet{
-	background: url("../img/dance_12.jpg");	
+	background: url("../img/ofertadeclases/oferta1.jpg");
 }
 
 .breakdance{
-	background: url("../img/breakdance.jpg");
+	background: url("../img/ofertadeclases/oferta2.jpg");
 }
 
 .lirical{
-	background: url("../img/lirical-jazz.jpg");
+	background: url("../img/ofertadeclases/oferta3.jpg");
 }
 
 .arabe{
-	background: url("../img/arabe.jpg");
+	background: url("../img/ofertadeclases/oferta4.jpg");
 }
 
 .little{
-	background: url("../img/little.jpg");
+	background: url("../img/ofertadeclases/oferta5.jpg");
 }
 
 .yoga{
-	background: url("../img/yoga.jpg");
+	background: url("../img/ofertadeclases/oferta6.jpg");
 }
 .bg{
+	height: 70vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 80%;
+}
+.special-flex1{
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	text-align: left;
+	text-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
 }

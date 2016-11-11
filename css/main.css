@@ -1,96 +1,114 @@
-.heroImg{
-	background: url("../img/dance_1.jpg") center;
+/**/
+/*HERO IMG*/
+.heroimg {
+	background: url("../img/dance_1.jpg")no-repeat;
 	background-size: cover;
+	height:62vh;
+	color: #fff;
+	/*height:calc(100vh / 1600 * 350);*/
+}
+.heroimg h2{
+	font-size: 65px;
+}
+.heroimg-position{
+	position: absolute;
+	right:0;
+	left:8%;
+	top:26%;
+}
+.heroimg-position p{
+	margin: 15px 0;
+	max-width: 210px;
+}
+.btn-SignUp, .btn-SignUp:hover, .btn-SignUp:focus{
 	color: white;
-	padding: 5%;
+	background-color: #09111c;
+	border-color: #09111c;
+	padding: 6px 30px;
 }
 
-.frase{
-	background: url("../img/textura_2.jpg");
-	padding: 4% 10%;
+/*SECCION JUILLIART*/
+.Juilliart{
+	background: url(../img/textura_2.jpg);
+	text-align: center;
+	padding: 60px 0;
+}
+.Juilliart p{
+	padding: 20px 0;
+	font-size: 20px;
+	max-width: 590px;
+	display: block;
+	margin: auto;
+}
+.btn-OfferClasses, .btn-OfferClasses:hover, .btn-OfferClasses:focus {
+	color: white;
+	background-color: #192951;
+	border-color: #192951;
+	padding: 8px 54px;
+	margin: 20px auto 0;
+	font-size: 20px;
+}
+
+/*SECCION DANZA PROFESORES*/
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divInstruct{
+	text-align: center;
+	background-color:#192951;
+	color: #fff;
+	font-size: 26px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	display: block;
+	margin: auto;
+	padding: 8px 0;
+	}
+.positionAbsolute1{
+	left: 30%;
+	bottom: 0;
+	right: 30%;
+}
+/*SECCION DE POEMA*/
+.sectionPoem {
+	padding: 50px 0;
+	background: url(../img/textura_2.jpg);
 	text-align: center;
 }
-
-.frase img{
-	width: 15%;
+.sectionPoem p{
+	max-width: 770px;
+	display: block;
+	margin: auto;
+	font-size: 35px;
+	font-style: italic;
 }
-
-.btnOferta{
-	background-color: #192951;
-}
-
-.borde{
-	border: 2px solid #192951;
-}
-
-.instructor1{
-	width: 100%;	
-}
-
-.img-contenedor:hover img {
--webkit-transform:scale(1.5);
--moz-transform:scale(1.5);
--ms-transform:scale(1.5);
--o-transform:scale(1.5);
-transform:scale(1.5);
-}
-/*Reducir tamaÃ±o*/
-.img-contenedor:hover img {
--webkit-transform:scale(0.25);
--moz-transform:scale(0.25);
--ms-transform:scale(0.25);
--o-transform:scale(0.25);
-transform:scale(0.25);
-}
-
-.instructor2{
-	width: 100%;
-	/*background: url("../img/profesor_9.jpg");
-	height: 60%;*/
-}
-
-.imagenes-instructores{
-	position: relative;
-}
-
-.nuestros-instructores{
-	position: absolute;
-	bottom: 0%;
-	padding: 4%;
-	background-color: #192951;
-	z-index: 100;
-}
-
-.rowTable {
-  display: table;
-  margin-right: 0px !important;
-}
-
-.rowTable .col-sm-6 {
-  display: table-cell;
-  float: none;
-  vertical-align: top;
-  margin: 0px;
-}
-
-.sinpadding [class*="col-"] {
-    padding: 0;
-}
-
-.sinmargin{
-    margin: 0;
-}
-
-.visitanos{
+/*SECCION MAP*/
+.sectionMap {
 	background-color: #192951;
 	padding: 5%;
 	color: white;
 }
 
 
+/**/
 
-@media screen and (min-width: 768px)  {
-	.frase{
-	padding: 4% 25%;
+@media screen and (max-width: 768px) {
+	.heroimg{
+		background-position: center;
 	}
+	.flex {
+		display: inline-block;
+		justify-content: center;
+		align-items: center;
+	}
+	.positionAbsolute1 {
+		position: inherit;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		top: 0;
+	}
+
 }

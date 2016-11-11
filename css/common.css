@@ -1,52 +1,145 @@
-html, body{
-  height: 100%;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-  margin: 0px;
-  padding: 0px;
+.navbar {
+    margin-bottom: 0 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
-.menu{
-  background-color: white;
-  padding: 2%;
-  text-align: center; 
+.navbar-default {
+    padding: 15px 0;
 }
 
-.menu a{
-  text-decoration: none;
-  padding: 2%;
-  color: black;
+nav.navbar.navbar-default.navbar-fixed-top {
+    background-color: #fff;
+    border-color: transparent!important;
+}
+.navbar-nav {
+    padding: 5px 0;
+    display: flex;
+    float: none !important;
+    margin: 0 !important;
+    justify-content: center;
 }
 
-.titulo:hover{
-  text-decoration: none;
-  color:#192951;
+.a-flex, .a-flex:hover, .a-flex:focus {
+    text-decoration: none;
+    opacity: 1;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 30px;
 }
 
-nav a:hover{
-  text-decoration: none;
-  color: white;
-  background-color: #192951;
-  opacity: 0.5;
+.navbar-default .navbar-nav > li > a {
+    color: #000 !important;
 }
 
-.contactanos{
-  padding: 5%;
-  background: url("../img/shoes_1.jpg") no-repeat;
-  background-position: right;
+.nav > li > a {
+    padding: 10px 20px !important;
 }
 
-.p2{
-  padding: 2% 0%;
+.with-bg {
+    background-color: #fff!important;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+    z-index: 9999 !important;
+}
+.special-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 
-footer{
-  background-color: #192951;
-  color: white;
+/*CONTACTANOS*/
+.contact{
+    padding: 8% 5%;
+    background: url(../img/shoes_1.jpg) no-repeat;
+    background-position: right;
+    background-size: 60%;
+}
+.form-control {
+    border: 2px solid #ccc;
+    border-radius: 0;
+}
+.btnSubmit, .btnSubmit:hover, .btnSubmit:focus{
+    color: white;
+    background-color: #192951;
+    border-color: #192951;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.contact h3{
+    color: #09111c;
+    font-weight: 800;
+    font-size: 35px;
+    padding: 10px 0;
+}
+footer {
+    background-color: #192951;
+    color: white;
+    padding: 8px 10px;
+}
+footer p{
+    margin: 0;
 }
 
-.input1{
+
+
+
+
+/*.menu {
+    background-color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 2%;
+    color: black;
+}
+
+.titulo:hover {
+    text-decoration: none;
+    color: #192951;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #192951;
+    opacity: 0.5;
+}
+
+.contactanos {
+    padding: 5%;
+    background: url("../img/shoes_1.jpg") no-repeat;
+    background-position: right;
+}
+
+.p2 {
+    padding: 2% 0%;
+}
+
+
+.input1 {
     background: url("../img/user.png") no-repeat scroll 0 0 transparent;
     border: 1px solid #BFBFBF;
     color: #BFBFBF;
@@ -54,18 +147,29 @@ footer{
     width: 230px;
 }
 
-.bg-black-op{
-  background: black no-repeat;
-  margin-left: 10%;
-  width: 80%;
-  opacity: 0.6;
-  padding: 2%;
+.bg-black-op {
+    background: black no-repeat;
+    margin-left: 10%;
+    width: 80%;
+    opacity: 0.6;
+    padding: 2%;
 }
 
 .vertical-centered-text {
-  -ms-display: flex;
-  display: flex;
-  /* alineacion vertical */
-  align-items: center;
-  /* alineacion horizontal */
-  justify-content: center; }
+    -ms-display: flex;
+    display: flex;
+   alineacion vertical
+    align-items: center;
+    alineacion horizontal
+    justify-content: center;
+}*/
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        padding: 5px 0;
+        display: flex;
+        float: left;
+        margin: 0 !important;
+        justify-content: center;
+    }
+}

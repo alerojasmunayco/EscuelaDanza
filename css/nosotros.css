@@ -1,3 +1,62 @@
+/*HEROIMG*/
+.heroimg{
+	background: url(../img/dance_7.jpg)no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: calc(100vw/ 1600 * 450);
+	background-size: 130%;
+}
+.item-overlay{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	text-align: center;
+	display: block;
+	margin: auto;
+	padding: 12px 45px;
+}
+.item-overlay p{
+	max-width: 380px;
+	margin: 12px 0;
+}
+.divider{
+	height: 1px;
+	margin: 9px 0;
+	overflow: hidden;
+	background-color: #e5e5e5;
+}
+.sectionPilar{
+	padding:50px 0;
+	background: url(../img/cubes.png);
+}
+.sectionPilar p{
+	max-width: 300px;
+	display: block;
+	margin: auto;
+}
+.instructors .col-sm-3{
+	padding: 20px 10px;
+}
+.phrase{
+	 padding: 50px 0;
+	 background: url(../img/cubes.png);
+ }
+.phrase h2{
+	font-style: italic;
+/**/
+
+
+}
+/**/
+
+
+
+
+
+
+
+
+
+
 .heroImg{
 	background: url("../img/dance_7.jpg");
 	background-size: center;
