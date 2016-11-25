@@ -100,6 +100,70 @@ footer p{
     margin: 0;
 }
 
+
+
+
+
+/*.menu {
+    background-color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 2%;
+    color: black;
+}
+
+.titulo:hover {
+    text-decoration: none;
+    color: #192951;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #192951;
+    opacity: 0.5;
+}
+
+.contactanos {
+    padding: 5%;
+    background: url("../img/shoes_1.jpg") no-repeat;
+    background-position: right;
+}
+
+.p2 {
+    padding: 2% 0%;
+}
+
+
+.input1 {
+    background: url("../img/user.png") no-repeat scroll 0 0 transparent;
+    border: 1px solid #BFBFBF;
+    color: #BFBFBF;
+    padding: 20px 25px 5px 50px;
+    width: 230px;
+}
+
+.bg-black-op {
+    background: black no-repeat;
+    margin-left: 10%;
+    width: 80%;
+    opacity: 0.6;
+    padding: 2%;
+}
+
+.vertical-centered-text {
+    -ms-display: flex;
+    display: flex;
+   alineacion vertical
+    align-items: center;
+    alineacion horizontal
+    justify-content: center;
+}*/
+
 @media screen and (max-width: 768px) {
     .navbar-nav {
         padding: 5px 0;
